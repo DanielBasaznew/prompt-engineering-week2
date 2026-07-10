@@ -1,0 +1,144 @@
+DANIEL BASAZNEW
+AI & Machine Learning Practitioner
+basaznewdaniel @gmail.com
+basaznewdaniel.wixsite.com/danielb
+PROFILE SUMMARY
++251 942 997 107 Addis Ababa, Ethiopia
+linkedin.com/in/daniel-basaznew-bekele-132377270
+Mechanical Engineer (Major GPA 3.76, Great Distinction) transitioning into Applied AI and Machine Learning.
+Over the past three years, I have built a strong foundation in machine learning, deep learning, and generative
+AI through 15+ certifications from DeepLearning.AI , AWS, and Udacity including Andrew Ng's full ML and
+Deep Learning Specializations.
+Proficient in Python-based ML development (Scikit-learn, TensorFlow, Pandas, NumPy), with hands on 
+experience building end to end models for fraud detection, churn prediction, and IoT-integrated intelligent 
+systems. Experienced with AI workflow automation tools including n8n and Zapier, and comfortable working 
+across data pipelines, model evaluation, and applied prototyping.
+I bring an engineering mindset to AI problems structured, systems oriented, and focused on building things
+that work in the real world. Currently seeking a structured applied AI environment where I can contribute,
+grow, and build meaningful systems.
+PROFESSIONAL EXPERIENCE
+Office Engineer
+•
+Twinkle Technology Group PLC
+AI Systems Development: Engineered logic-driven decision systems using Python 
+and LLM-assisted prototyping to automate project workflows.
+•
+Digital Transformation: Migrated manual tracking processes into a semi
+automated digital ecosystem, enhancing operational speed and accuracy.
+•
+Infrastructure Management: Oversaw company servers and backend stability for 
+web platforms.
+Machine Learning (AI) Intern
+•
+Codsoft
+Full-Cycle Model Deployment: Developed and deployed three comprehensive ML 
+projects using Python libraries for data preprocessing and regression tasks.
+•
+Algorithm Tuning: Utilized statistical methods, including cross-validation and 
+confusion matrix analysis, to optimize model performance for predictive analytics.
+•
+Data Insight: Transformed raw datasets into actionable insights via complex data 
+visualization and exploratory analysis.
+Industrial Practitioner & Intern
+•
+Heineken Ethiopia (Kilinto Brewery)
+Systems: Integrated mechanical hardware with PLC automation and industrial 
+sensors on high-speed lines.
+•
+Diagnostics: Troubleshooting automated packaging machinery to minimize 
+downtime and stabilize production flow
+Intern
+•
+FDRE Military Maintenance Office - Light Vehicle Division (MeTeC)
+Diagnostics: Conducted systematic troubleshooting and repair of light military 
+vehicle systems in a high-discipline environment.
+•
+Reliability: Ensured fleet operational readiness through strict adherence to 
+procedural workflows and preventive maintenance protocols.
+EDUCATION
+09/2025 – 01/2026
+Ethiopia
+09/2024 – 10/2024
+Remote
+01/2026 – 06/2026
+Harar, Ethiopia
+06/2024 – 08/2024
+Ethiopia
+BSc in Mechanical Engineering
+Adama Science and Technology University
+CGPA: 3.58 | Major GPA: 3.76
+•
+BA in Marketing Management (In Progress)
+Harambee University
+Current CGPA: 3.70
+21/06/2025
+Adama, Ethiopia
+01/07/2026
+Ethiopia
+•
+SKILLS & TOOLS
+•
+Software & Languages
+Machine Learning & AI: Supervised/ Unsupervised Learning, Deep Neural Networks (CNNs), Generative AI, 
+Large Language Models (LLMs), Prompt Engineering, and Natural Language Processing (NLP).
+•
+Programming & Data: Python (Pandas, Scikit-learn, NumPy, Matplotlib), C++, MATLAB, SQL, and 
+Advanced Excel VBA.
+•
+Automation & Systems: AI Workflow Automation (n8n, Zapier), PLC Logic, SCADA, IoT Architecture 
+(Arduino), and Sensor Integration.
+Engineering & Design: SolidWorks, CATIA, AutoCAD, and System Diagnostics/ Repair.
+•
+SPECIALIZED CERTIFICATIONS
+Generative AI with Large Language Models 
+Coursera &AWS
+Completed a hands-on course on building and applying generative AI systems using large language models, 
+including prompt engineering and real-world AI applications.
+Deep Learning Specialization 
+DeepLearning.AI
+Completed a comprehensive program covering neural networks, CNNs, sequence models, and optimization 
+techniques for building advanced AI systems.
+Machine Learning Specialization 
+DeepLearning.AI
+Gained practical experience in supervised and unsupervised learning, including regression, classification, and 
+model evaluation using real-world datasets.
+Artificial Intelligence Fundamentals 
+Udacity
+Built foundational knowledge in AI concepts, including problem-solving, search algorithms, and intelligent 
+systems.
+Data Analysis Fundamentals 
+Udacity
+Developed skills in data processing, visualization, and analysis using modern data tools and techniques.
+Python Programming (University of Michigan Series) 
+Coursera
+Acquired strong foundations in Python, including data structures, web data access, and problem-solving 
+through practical exercises.
+PROJECTS
+Smart Irrigation & IoT Control System
+•
+Engineered an end-to-end IoT system using C++ and Python, replacing traditional threshold-based logic 
+with a custom Machine Learning model (AI).
+•
+Developed sensor-to-cloud data pipelines to automate irrigation, significantly improving water efficiency 
+and predictive yield accuracy.
+Enterprise Automation & Logic Systems
+•
+Digitized core operations by building custom modules for HR compensation, BoQ management, and tender 
+lifecycles.
+•
+Designed quantitative models and real-time dashboards to eliminate decision bias and automate cost
+tracking workflows with high precision.
+Machine Learning & Predictive Analytics
+Credit Card Fraud Detection: Built a classification model to identify high-risk transactions.
+•
+Customer Churn Prediction: Developed a predictive engine to analyze behavior and reduce attrition.
+•
+Movie Genre Classification: Implemented NLP techniques for automated content tagging.
+•
+LANGUAGES
+Amharic
+Native
+Afaan Oromo
+English
+Fluent
+Basic Conversational
