@@ -180,3 +180,5 @@ if __name__ == "__main__":
         analyze_resume_stream(resume_content)
     else:
         console.print("[bold red]Error: No resume content provided to analyze.[/bold red]")
+    
+    print("\n[bold cyan]Thank you for using the Resume Reviewer![\/bold cyan]")
