@@ -14,3 +14,6 @@ Gemini doesn't give even one responce per day on the advanced model if it access
 
 ## Day 4 Reflection
 I add file handling tool to my yesterday Resume Reviewer model.
+
+## Day 5 Reflection
+Learn and implement API call rate limit and have insight before unexpected cost.
