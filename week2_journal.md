@@ -1,19 +1,35 @@
-## Day 1 Reflection
+# Week 2 Learning Journal: Production LLM Engineering
 
-**1. Did few-shot prompting change the output quality noticeably? In what way?**
+This journal tracks my daily progress, code adjustments, architectural reflections, and technical breakthroughs during Week 2 of mastering prompt engineering and production AI patterns.
 
-Yes. Few-shot prompting noticeably improved the quality of the output. The model produced explanations that were more consistent, better structured, and easier to understand. By providing a few examples, the model learned the expected tone, format, and level of detail, resulting in explanations that were more aligned with what I wanted than the zero-shot version.
+## 📅 Day 1 Reflection: Zero-Shot vs. Few-Shot Performance
 
-**2. When would you use zero-shot prompting versus few-shot prompting in a real production application?**
+### 1. Impact of Few-Shot Prompting on Output Quality
 
-I would use **zero-shot prompting** for simple or general tasks where the instructions are clear and the exact output format is not critical. It is faster and requires a shorter prompt. I would use **few-shot prompting** when consistency, formatting, or a specific writing style is important, such as code explanation tools, customer support assistants, data extraction, or document classification. In production, few-shot prompting is often the better choice when reliable and predictable responses are required.
+Observation: Transitioning from zero-shot to few-shot prompting produced a dramatic upgrade in output quality.
 
-## Day 2 reflection 
-I get the detail promot give a detail and resoning prompt
-Gemini doesn't give even one responce per day on the advanced model if it access via API.
+Key Improvements: By presenting the model with in-context examples, the generated explanations gained exceptional structural alignment, consistent technical tone, and highly predictable formatting. The model successfully bypassed generic, conversational filler and matched the exact level of granular detail specified in the examples.
 
-## Day 4 Reflection
-I add file handling tool to my yesterday Resume Reviewer model.
+### 2. Strategic Deployment: Zero-Shot vs. Few-Shot in Production
 
-## Day 5 Reflection
-Learn and implement API call rate limit and have insight before unexpected cost.
+Zero-Shot Prompting: Ideal for low-friction, general-purpose tasks where instructions are explicit and strict formatting consistency is not a hard dependency. It is faster to design and minimizes input token consumption (saving costs).
+
+Few-Shot Prompting: Essential for mission-critical production pipelines requiring high predictability, specialized domain styling, or strict schema adherence (e.g., structured data extraction, code explanation generation, and classification systems). The increase in input token overhead is a necessary investment for production-grade reliability.
+
+## 📅 Day 2 Reflection: Prompt Engineering & API Limits
+
+Key Learning: Investigated the power of Chain-of-Thought (CoT) prompting. Instructing the model to write down its logic inside <thinking> tags before outputting final answers significantly improves reasoning accuracy on complex tasks.
+
+API Constraints: Experienced firsthand the strict rate limits and quotas associated with hitting advanced model APIs. This highlighted the immediate need for client-side resilience, cost controls, and rate-limit safety mechanisms in production scripts.
+
+## 📅 Day 4 Reflection: File System Integration & Input Pipelines
+
+Implementation: Upgraded the Resume Reviewer from a purely interactive input tool into a command-line utility with integrated file-handling logic.
+
+Why it Matters: Real-world applications rarely rely on copy-pasting raw text into a terminal. Building an automated local file reader—with robust decoding try-except blocks to catch legacy encodings (like windows-1252)—makes the application incredibly durable and user-friendly.
+
+## 📅 Day 5 Reflection: API Resilience & Cost Safeguards
+
+Resilience: Implemented client-side exponential backoff to gracefully intercept and handle HTTP 429 Rate Limit errors. Instead of crashing the program, the script now automatically pauses, backs off, and heals the connection dynamically.
+
+Pre-Flight Cost Controls: Created an estimation tool using client.models.count_tokens to calculate precise prompt token sizes and projected API costs prior to hitting the generator model. This prevents "runaway loop" charges and provides critical administrative insights before incurring costs.
